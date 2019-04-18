@@ -1,0 +1,23 @@
+{
+  "name": "node-red-contrib-alexarank",
+  "version": "1.0.0",
+  "description": "Provide alexarank block to get domain name information",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "node-red": {
+    "nodes": {
+      "alexarank": "node.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/benoit.lavorata/node-red-contrib-alexarank.git"
+  },
+  "author": "Benoit Lavorata",
+  "license": "ISC",
+  "dependencies": {
+    "alexarank": "^0.2.0"
+  }
+}
