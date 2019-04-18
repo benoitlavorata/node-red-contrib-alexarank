@@ -1,7 +1,7 @@
 const logic = require('./logic.js');
 (async () => {
     var data = await logic.onMessage({
-        payload: 'https://falinwa.com'
+        payload: 'https://apple.com'
     });
     console.log(data);
 })().catch(err => console.error)
