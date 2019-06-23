@@ -1,6 +1,6 @@
 {
   "name": "node-red-contrib-alexarank",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Provide alexarank block to get domain name information",
   "main": "index.js",
   "scripts": {
